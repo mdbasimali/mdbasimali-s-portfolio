@@ -176,7 +176,7 @@ export const SkillsInfo = [
       img: JhsLogo,
       school: "Jamalpur High School, Birbhum",
       date: "Apr 2017 - March 2018",
-      grade: "87.5%",
+      grade: "66.14%",
       desc: "I completed my class 10 education from Jamalpur High School, Birbhum, under the WBBSE board, where I studied Science.",
       degree: "WBBSE(X), Science",
     },
