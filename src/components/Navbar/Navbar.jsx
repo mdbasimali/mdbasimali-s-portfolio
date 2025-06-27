@@ -13,7 +13,7 @@ const Navbar = () => {
       setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("dcroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   //smooth scroll function
@@ -84,7 +84,7 @@ const Navbar = () => {
           <a
             href="https://www.linkedin.com/in/md-basim-ali/"
             target="_blank"
-            rel='"noopener noreferrer'
+            rel='noopener noreferrer'
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaLinkedin size={24} />
@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Icons */}
-        <div className="md:hiddne">
+        <div className="md:hidden">
           {isOpen ? (
             <FiX
               className="text-3xl text-[#82452c] cursor-pointer"
