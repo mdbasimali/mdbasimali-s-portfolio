@@ -157,10 +157,10 @@ export const SkillsInfo = [
       id: 0,
       img: SnuLogo,
       school: "Sister Nivedita University, WEST BENGAL",
-      date: "Sept 2022 - Aug 2026",
+      date: "Sept 2022 - June 2026",
       grade: "7.42 CGPA",
       desc: "I am currently pursuing a Bachelor of Technologgy (B.Tech.) in Computer Science and Engineering at Sister Nivedita University, West Bengal. Throughout my studies, I have been immersed in a wide range of subjects that have deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I have gained valuable, hands-on insights into the world of software development. My academic journey has also involved working on projects that apply theoretical knowledge to real-world problems, enhancing both my technical and problem-solving skills.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      degree: "Bachelor of Technology - B.Tech (Computer Science & Engineering)",
     },
     {
       id: 1,
@@ -169,7 +169,7 @@ export const SkillsInfo = [
       date: "Apr 2019 - March 2020",
       grade: "75.80%",
       desc: "I completed my class 12 education from Mallarpur High School, West Bengal, under the WBCHSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
-      degree: "WBCHSE(XII) - PCM",
+      degree: "WBCHSE(XII) - Science",
     },
     {
       id: 3,
@@ -178,7 +178,7 @@ export const SkillsInfo = [
       date: "Apr 2017 - March 2018",
       grade: "66.14%",
       desc: "I completed my class 10 education from Jamalpur High School, Birbhum, under the WBBSE board, where I studied Science.",
-      degree: "WBBSE(X), Science",
+      degree: "WBBSE(X)",
     },
   ];
   
