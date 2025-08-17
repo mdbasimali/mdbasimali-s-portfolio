@@ -7,15 +7,15 @@ import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
+// import gsapLogo from './assets/tech_logo/gsap.png';
 // import materialuiLogo from './assets/tech_logo/materialui.png';
 // import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 // import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 // import mysqlLogo from './assets/tech_logo/mysql.png';
-// import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
+// import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 // import javaLogo from './assets/tech_logo/java.png';
@@ -24,7 +24,7 @@ import cppLogo from './assets/tech_logo/cpp.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
-// import postmanLogo from './assets/tech_logo/postman.png';
+import postmanLogo from './assets/tech_logo/postman.png';
 // import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
@@ -59,7 +59,7 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
-      // { name: 'Next JS', logo: nextjsLogo },
+      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
       
@@ -69,8 +69,9 @@ export const SkillsInfo = [
     title: 'Backend',
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
-      // { name: 'Express JS', logo: expressjsLogo },
-      // { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'POSTMAN', logo: postmanLogo },
     ],
   },
   {
@@ -101,7 +102,7 @@ export const SkillsInfo = [
       img: oasis,
       role: "Web Developer",
       company: "Oasis Infobyte",
-      date: "June 2025 - Present",
+      date: "June 2025 - July 2025",
       desc: "Developed dynamic and scalable web applications using HTML, CSS And JAVASCRIPT.",
       skills: [
         "HTML",
@@ -158,7 +159,7 @@ export const SkillsInfo = [
       img: SnuLogo,
       school: "Sister Nivedita University, WEST BENGAL",
       date: "Sept 2022 - June 2026",
-      grade: "7.42 CGPA",
+      grade: "7.49 CGPA",
       desc: "I am currently pursuing a Bachelor of Technologgy (B.Tech.) in Computer Science and Engineering at Sister Nivedita University, West Bengal. Throughout my studies, I have been immersed in a wide range of subjects that have deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I have gained valuable, hands-on insights into the world of software development. My academic journey has also involved working on projects that apply theoretical knowledge to real-world problems, enhancing both my technical and problem-solving skills.",
       degree: "Bachelor of Technology - B.Tech (Computer Science & Engineering)",
     },
